@@ -6,7 +6,7 @@
 
 body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-    padding: 3em 1em;
+    padding: 3em .5em;
 }
 
 p {
@@ -35,8 +35,40 @@ p {
 #img-div {
     background-color: #fff;
     margin: 1em;
+    padding: 1em;
 }
 
 #img-div p {
     padding-top: 1em;
+}
+
+#tribute-info {
+    width: 40%;
+    margin: auto;
+    text-align: justify;
+}
+
+#tribute-info ul {
+    padding: 1em;
+}
+
+#tribute-info li {
+    padding-block: .8em;
+}
+
+#tribute-info li span {
+    font-weight: bold;
+}
+
+#tribute-info p {
+    font-style: italic;
+    font-weight: 300;
+}
+
+#tribute-author {
+    margin-top: 1em;
+}
+
+#footer {
+    padding: 2em;
 }
