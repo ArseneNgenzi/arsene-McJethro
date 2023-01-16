@@ -23,6 +23,7 @@ p {
     padding-block: 1em;
 }
 
+
 #title h1 {
     font-size: 2.5rem;
     padding-bottom: .5em;
@@ -31,11 +32,26 @@ p {
 #title p {
     padding-bottom: .5em;
 }
+/* MEDIA QUERIES FOR THE TITLES */
+
+@media only screen and (min-width: 390px) {
+    #title h1{
+      font-size: 1.2em;
+    }
+    #title p{
+        font-size: 1em;
+      }
+  }
 
 #img-div {
     background-color: #fff;
     margin: 1em;
     padding: 1em;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
 }
 
 #img-div p {
@@ -67,6 +83,13 @@ p {
 
 #tribute-author {
     margin-top: 1em;
+}
+
+@media only screen and (min-width: 390px) {
+    #tribute-info {
+        width: 80%;
+    }
+
 }
 
 #footer {
